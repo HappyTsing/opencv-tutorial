@@ -19,8 +19,9 @@ cv2.destroyAllWindows()        关闭所有的串口。
 cv2.imwrite(image_file, img)   保存图片
 """
 def show_by_opencv():
-    img = cv2.imread('img/snowman.png',cv2.IMREAD_COLOR)
+    img = cv2.imread('img/snowman.png',cv2.IMREAD_GRAYSCALE)
     cv2.imshow('avatar',img)
+    
     cv2.waitKey(0)
     cv2.destroyAllWindows()
     cv2.imwrite('img/snowman_gray.png',img)
