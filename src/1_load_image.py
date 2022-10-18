@@ -1,9 +1,11 @@
 import cv2
-import numpy as np
 from matplotlib import pyplot as plt
 
 """
-将img定义为: cv2.read(image_file, parms)。
+@Description 图片导入
+
+将img定义为: cv2.read(image_file, parms)。可选参数如下：
+
     cv2.IMREAD_COLOR：加载彩色图片，这个是默认参数，可以直接写1。
     cv2.IMREAD_GRAYSCALE：以灰度模式加载图片，可以直接写0。
     cv2.IMREAD_UNCHANGED：包括alpha通道，可以直接写-1。alpha 是不透明度
