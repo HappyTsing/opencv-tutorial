@@ -1,12 +1,10 @@
 [[source]]
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
 [packages]
 loguru = "*"
-opencv-python = "*"
-matplotlib = "*"
 
 [dev-packages]
 
